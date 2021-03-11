@@ -1,0 +1,14 @@
+.btn--mod {
+  border: 0;
+  background-color: transparent;
+  font-size: $default-font-size;
+  font-weight: 300;
+  transition: all 0.2s ease-in-out;
+
+  outline: none;
+
+  &:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
